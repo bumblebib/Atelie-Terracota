@@ -9,10 +9,12 @@
 
 #aulas h3 {
     font-size: 36px;
-    margin: 0 20px;
+    margin: 160px 20px 12px 20px;
     text-align: center;
-    padding-top: 160px;
-    padding-bottom: 12px;
+}
+
+#aulas p {
+    font-size: 24px;
 }
 
 #aulas img {
