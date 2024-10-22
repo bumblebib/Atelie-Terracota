@@ -1,0 +1,33 @@
+/* fontes */
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&display=swap');
+
+/* variáveis de estilo */
+:root{
+ --fonte1: 'Nunito Sans', sans-serif;
+ --fonte2: 'Lato', sans-serif;
+ --background-header: #FEFAE0;
+ --background-marrom-escuro: #673A3F;
+ --background-marrom-claro: #B99470;
+ --cor-texto-header: #803D2A;
+ --cor-texto-footer: #FEFAE0;
+ --texto-marrom-escuro: #3B2023;
+}
+
+/* reset */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: var(--fonte1);
+}
+
+/*remover a barra de rolagem*/
+::-webkit-scrollbar{
+    display: none;
+}
+
+/* delimitando as seções */
+section{
+    height: 100vh;
+}
+
