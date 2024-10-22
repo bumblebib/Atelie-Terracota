@@ -1,1 +1,27 @@
-/* Feito por: --- escreva seu nome aqui */
+/* Feito por: Thales Leonardo Euler Vieira de Sousa */
+
+#aulas {
+    display: flex;
+    justify-content: space-around;
+    background-color: var(--background-marrom-escuro);
+    color: var(--cor-texto-footer);
+}
+
+#aulas h3 {
+    font-size: 36px;
+    margin: 0 20px;
+    text-align: center;
+    padding-top: 160px;
+    padding-bottom: 12px;
+}
+
+#aulas img {
+    width: 675px;
+    height: 425px;
+    border: 6px solid #5E5D5C;
+    border-radius: 20px;
+}
+
+#servicos {
+    background-color: var(--background-marrom-claro);
+}
