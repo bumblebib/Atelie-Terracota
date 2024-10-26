@@ -7,14 +7,25 @@
     color: var(--cor-texto-footer);
 }
 
+.aulas-cursos {
+    text-align: center;
+}
+
+.frase-chamada {
+    margin-top: 15px;
+    border-top: 3px solid #5E5D5C;
+    
+}
+
 #aulas h3 {
     font-size: 36px;
-    margin: 160px 20px 12px 20px;
-    text-align: center;
+    margin: 120px 0px 12px 0px;
 }
 
 #aulas p {
     font-size: 24px;
+    line-height: 95%;
+    letter-spacing: 95%;
 }
 
 #aulas img {
