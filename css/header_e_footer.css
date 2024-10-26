@@ -1,5 +1,7 @@
 /* Feito por: Caroline Ito Gutierrez */
 
+/* header */
+
 body {
     margin: 0;
     padding: 0;
@@ -56,4 +58,90 @@ nav ul li a { /* botões */
 nav ul li a:hover { /* , nav li a.active */
     text-decoration: underline;
     /* font-weight: bold; */
+}
+
+/* footer */
+
+footer {
+    background-color: #6b3d3d; /* Cor de fundo do footer */
+    padding: 20px;
+    height: 249px; /* Altura ajustada */
+    color: #B99470; /* Cor dourada para o texto */
+    font-family: Arial, sans-serif;
+    text-align: center; /* Centraliza todo o conteúdo */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.footer-content {
+    display: flex;
+    border-bottom: 1px solid #B99470; /* Linha de separação */
+    flex-direction: column;
+    align-items: center;
+}
+
+.footer-logo {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-bottom: 10px;
+}
+
+.footer-logo .logo-img {
+    height: 50px;
+    width: 50px;
+}
+
+.footer-logo h2 {
+    font-size: 20px;
+    color: #B99470; /* Cor dourada */
+    margin: 0;
+}
+
+.footer-menu ul {
+    display: flex;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    gap: 20px;
+}
+
+.footer-menu ul li a {
+    text-decoration: none;
+    font-size: 16px;
+    color: #B99470; /* Cor dourada */   
+transition: color 0.3s ease;
+}
+
+.footer-menu ul li a:hover {
+    color: #f3e5d1; /* Cor amarelo claro no hover */
+}
+
+.footer-bottom {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+}
+
+.footer-bottom p {
+    font-size: 14px;
+    margin: 0;
+    color: #B99470; /* Cor dourada */
+}
+
+.footer-bottom .social-icons {
+    display: flex;
+    gap: 15px;
+}
+
+.social-icons a img {
+    height: 20px;
+    width: 20px;
+    filter: invert(60%);
+    transition: filter 0.3s ease;
+}
+
+.social-icons a img:hover {
+    filter: invert(80%);
 }
