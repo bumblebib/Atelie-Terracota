@@ -63,12 +63,12 @@ nav ul li a:hover { /* , nav li a.active */
 /* footer */
 
 footer {
-    background-color: #6b3d3d; /* Cor de fundo do footer */
+    background-color: #6b3d3d; 
     padding: 20px;
-    height: 249px; /* Altura ajustada */
-    color: #B99470; /* Cor dourada para o texto */
+    height: 249px; 
+    color: #B99470;
     font-family: Arial, sans-serif;
-    text-align: center; /* Centraliza todo o conteúdo */
+    text-align: center; 
     display: flex;
     flex-direction: column;
     justify-content: space-between;
@@ -94,7 +94,7 @@ footer {
 
 .footer-logo h2 {
     font-size: 20px;
-    color: #B99470; /* Cor dourada */
+    color: #B99470; 
     margin: 0;
 }
 
@@ -109,12 +109,12 @@ footer {
 .footer-menu ul li a {
     text-decoration: none;
     font-size: 16px;
-    color: #B99470; /* Cor dourada */   
+    color: #B99470;   
 transition: color 0.3s ease;
 }
 
 .footer-menu ul li a:hover {
-    color: #f3e5d1; /* Cor amarelo claro no hover */
+    color: #f3e5d1; 
 }
 
 .footer-bottom {
@@ -127,7 +127,7 @@ transition: color 0.3s ease;
 .footer-bottom p {
     font-size: 14px;
     margin: 0;
-    color: #B99470; /* Cor dourada */
+    color: #B99470;
 }
 
 .footer-bottom .social-icons {
