@@ -1,16 +1,5 @@
 /* Feito por: Pedro Pereira*/
-@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&display=swap');
-/* variáveis de estilo */
-:root{
-    --fonte1: 'Nunito Sans', sans-serif;
-    --fonte2: 'Lato', sans-serif;
-    --background-header: #FEFAE0;
-    --background-marrom-escuro: #673A3F;
-    --background-marrom-claro: #B99470;
-    --cor-texto-header: #803D2A;
-    --cor-texto-footer: #FEFAE0;;
-    --texto-marrom-escuro: #3B2023;
-}
+@import url('styles.css'); 
 
 /*
 Hero Section
@@ -100,7 +89,7 @@ Seção entre em contato
 *******************/
 
 section#contato{
-    height: 80vh;
+    height: 100vh;
     background-image: url('/img/fundoHero.png');
     background-attachment: fixed;
     background-size: cover;
@@ -118,8 +107,8 @@ section#contato div#container{
     background-color: rgba(255, 255, 255, 0.6);
     backdrop-filter: blur(5px);
     text-align: center;
-    padding: 32.5px;
-}
+    padding: 100px;
+} 
 
 section#contato div#borda-form{
     width: 350px;
