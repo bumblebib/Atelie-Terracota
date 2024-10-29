@@ -1,0 +1,164 @@
+/* Feito por: --- escreva seu nome aqui *//* Feito por: Pedro Pereira*/
+@import url('styles.css'); 
+
+/*
+Hero Section
+**************/
+
+section#hero{
+    position: relative;
+    height: 100vh;
+    background-image: url('/img/fundoHero.png');
+    background-attachment: fixed;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 0px -130px;
+}
+
+/*
+Container
+*******************/
+
+section#hero div#container{
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+/*
+Área de Destaque
+*******************/
+
+section#hero div#container div#destaque{
+    width: 35%;
+    max-width: 650px;
+    min-width: 375px;
+    position: relative;
+    top: 20%;
+    left: 70px;
+    padding: 22px;
+    background-color: rgba(255, 255, 255, 0.175);
+    border-radius: 10px;
+    backdrop-filter: blur(5px);
+    text-align: center;
+}
+
+section#hero div#container div#destaque h1{
+    text-align: left;
+    font-family: var(--fonte1);
+    font-size: 33px;
+    color: var(--cor-texto-footer);
+    margin: 5px;
+}
+
+section#hero div#container div#destaque p{
+    font-family: var(--fonte2);
+    padding: 0px 5px;
+    font-size: 1.5rem;
+    color: var(--cor-texto-footer);
+    margin: 15px 0px;
+    text-align: left;
+}
+
+/*
+Botão Entre em Contato
+*************************/
+
+div.borda-botao{
+    border: 1.5px solid var(--cor-texto-footer);
+    display: inline-flex;
+    border-radius: 6px;
+    padding: 2px;
+    margin: 20px 0 10px 0;
+}
+
+div.borda-botao a{
+    text-decoration: none;
+    color: #000;
+    padding: 15px 30px;
+    font-size: 1.2em;
+    font-weight: 700;
+    background-color: var(--cor-texto-footer);
+    border-radius: 5px;
+}
+  
+/*
+Seção entre em contato
+*******************/
+
+section#contato{
+    height: 100vh;
+    background-image: url('/img/fundoHero.png');
+    background-attachment: fixed;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+section#contato h1{
+    color: var(--cor-texto-footer);
+    margin: 0px auto 0px auto;
+}
+
+section#contato div#container{
+    width: 100%;
+    height: 100%;
+    background-color: rgba(255, 255, 255, 0.6);
+    backdrop-filter: blur(5px);
+    text-align: center;
+    padding: 100px;
+} 
+
+section#contato div#borda-form{
+    width: 350px;
+    display: inline-flex;
+    padding: 2px;
+    border: 1.5px solid var(--cor-texto-footer);
+    border-radius: 20px;
+    margin: 5px auto 37.5px auto;
+}
+
+/*
+Formulário
+*******************/
+form{
+    width: 100%;
+    height: 400px;
+    background-color: var(--cor-texto-footer);
+    border-radius: 16px;
+    padding: 15px;
+}
+
+form label{
+    display: flex;
+    margin: 0px auto -25px auto; 
+    text-align: left;
+}
+
+form input{
+    padding: 2px 0px 2px 5px;
+    width: 100%;
+    border-radius: 5px;
+    border: 1px solid gray;
+    margin: 5px auto 10px auto;
+}
+
+textarea#mensagem{
+    padding-top: 2px;
+    padding-left: 5px;
+    width: 100%;
+    height: auto;
+    margin-top: 5px;
+}
+
+form button{
+    width: 225px;
+    margin: 15px auto;
+    padding: 5px;
+    border: none;
+    background-color: var(--background-marrom-escuro);
+    color: white;
+    font-size: 15px;
+    border-radius: 5px;
+}
