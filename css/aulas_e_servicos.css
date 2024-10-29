@@ -7,14 +7,47 @@
     color: var(--cor-texto-footer);
 }
 
+.aulas-cursos {
+    text-align: center;
+}
+
+.frase-chamada {
+    font-weight: bolder;
+}
+
+#aul {
+}
+
+#cur {
+}
+
+#aulas-texto {
+    width: 675px;
+    height: 280px;
+    margin-top: 15px;
+    border-top: 3px solid #5E5D5C;
+    padding-top: 9px;
+    padding-bottom: 9px;
+}
+
+#cursos-texto {
+    width: 675px;
+    height: 280px;
+    margin-top: 15px;
+    border-top: 3px solid #5E5D5C;
+    padding-top: 9px;
+    padding-bottom: 9px;
+}
+
 #aulas h3 {
     font-size: 36px;
-    margin: 160px 20px 12px 20px;
-    text-align: center;
+    margin: 130px 0px 12px 0px; /* conferir o tamanho exato do header pra definir a margin */
 }
 
 #aulas p {
     font-size: 24px;
+    line-height: 90%;
+    letter-spacing: 90%; /* rever se os numeros não precisam diminuir mais para o alinhamento */
 }
 
 #aulas img {

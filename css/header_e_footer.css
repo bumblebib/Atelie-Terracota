@@ -1,1 +1,147 @@
-/* Feito por: --- escreva seu nome aqui */
+/* Feito por: Caroline Ito Gutierrez */
+
+/* header */
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Lato', sans-serif;
+    background-color: #FEFAE0;
+}
+
+header {
+    background-color: #FEFAE0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px 40px;
+    height: 126px;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+}
+
+.logo img {
+    height: 50px;
+    width: 50px;
+    margin-right: 10px;
+   /* background-image: url("./OneDrive/Carol - Pessoal/imagens/Capturas de Tela/Captura de tela 2024-10-02 215812"); */
+
+}
+
+.logo h1 { /* Ateliê Terracota */
+    font-size: 24px;
+    color: #803D2A; 
+    margin: 0;
+    font-family: 'Lato', sans-serif;
+}
+
+nav ul {
+    display: flex;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    margin-left: 20px;
+}
+
+nav ul li a { /* botões */
+    text-decoration: none;
+    font-size: 16px;
+    color: #803D2A;
+}
+
+nav ul li a:hover { /* , nav li a.active */
+    text-decoration: underline;
+    /* font-weight: bold; */
+}
+
+/* footer */
+
+footer {
+    background-color: #6b3d3d; 
+    padding: 20px;
+    height: 249px; 
+    color: #B99470;
+    font-family: Arial, sans-serif;
+    text-align: center; 
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.footer-content {
+    display: flex;
+    border-bottom: 1px solid #B99470; /* Linha de separação */
+    flex-direction: column;
+    align-items: center;
+}
+
+.footer-logo {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-bottom: 10px;
+}
+
+.footer-logo .logo-img {
+    height: 50px;
+    width: 50px;
+}
+
+.footer-logo h2 {
+    font-size: 20px;
+    color: #B99470; 
+    margin: 0;
+}
+
+.footer-menu ul {
+    display: flex;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    gap: 20px;
+}
+
+.footer-menu ul li a {
+    text-decoration: none;
+    font-size: 16px;
+    color: #B99470;   
+transition: color 0.3s ease;
+}
+
+.footer-menu ul li a:hover {
+    color: #f3e5d1; 
+}
+
+.footer-bottom {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+}
+
+.footer-bottom p {
+    font-size: 14px;
+    margin: 0;
+    color: #B99470;
+}
+
+.footer-bottom .social-icons {
+    display: flex;
+    gap: 15px;
+}
+
+.social-icons a img {
+    height: 20px;
+    width: 20px;
+    filter: invert(60%);
+    transition: filter 0.3s ease;
+}
+
+.social-icons a img:hover {
+    filter: invert(80%);
+}
