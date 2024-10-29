@@ -1,1 +1,18 @@
-/* Feito por: --- escreva seu nome aqui */
+/*Maurício*/
+
+img {
+	display: block;
+	max-width: 100%;
+}
+
+#quemsomos {
+	display: flex;
+	background-color: #6c333e;
+	margin: 0 auto;
+}
+
+#ceramica {
+	display: flex;
+	background-color: #bb966d;
+	margin: 0 auto;
+}
