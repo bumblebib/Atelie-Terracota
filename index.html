@@ -8,7 +8,7 @@
     <!-- estilos -->
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/header_e_footer.css">
-    <link rel="stylesheet" href="css/hero_e_forumulario.css">
+    <link rel="stylesheet" href="css/hero_e_formulario.css">
     <link rel="stylesheet" href="css/quemsomos_e_ceramica.css">
     <link rel="stylesheet" href="css/aulas_e_servicos.css">
 
@@ -35,43 +35,37 @@
 <body>
 
     <!-- HEADER - CAROL-->
-    <!DOCTYPE html>
-    <html lang="pt-BR">
 
-    <head>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>Ateliê Terracota</title>
-        <link rel="stylesheet" href="styles.css">
-    </head>
-
-    <body>
-
-        <header>
-            <div class="logo">
-                <img src="logo.png" alt="Logo Ateliê">
-                <h1>Ateliê Terracota</h1>
-            </div>
-            <nav>
-                <ul>
-                    <li><a href="#hero" class="active">Home</a></li>
-                    <li><a href="#">Quem somos</a></li> <!-- continuar os href -->
-                    <li><a href="#">Cerâmicas</a></li>
-                    <li><a href="#">Cursos</a></li>
-                    <li><a href="#">Serviços</a></li>
-                    <li><a href="#">Contato</a></li>
-                </ul>
-            </nav>
-        </header>
-
-    </body>
-
-    </html>
+    <header>
+        <div class="logo">
+            <img src="logo.png" alt="Logo Ateliê">
+            <h1>Ateliê Terracota</h1>
+        </div>
+        <nav>
+            <ul>
+                <li><a href="#hero" class="active">Home</a></li>
+                <li><a href="#">Quem somos</a></li> <!-- continuar os href -->
+                <li><a href="#">Cerâmicas</a></li>
+                <li><a href="#">Cursos</a></li>
+                <li><a href="#">Serviços</a></li>
+                <li><a href="#">Contato</a></li>
+            </ul>
+        </nav>
+    </header>
 
     <!-- HERO - PEDRO -->
 
     <section id="hero">
-        <h1>HERO</h1>
+        <div id="container">
+            <div id="destaque">
+                <h1>Ateliê Terracota</h1>
+                <h1>Estudio de Cerâmica</h1>
+                <p>Comece hoje e leve para casa uma peça feita com suas próprias mãos!</p>
+                <div class="borda-botao">
+                    <a href="#contato">Entrar em Contato</a>
+                </div>
+            </div>
+        </div>
     </section>
 
     <!-- QUEM SOMOS - MAURICIO -->
@@ -124,15 +118,17 @@
             <h3>Aulas</h3>
             <img src="img/high-angle-people-doing-pottery.jpg" alt="">
 
-            <p class="frase-chamada"> Aulas para todos os níveis! </p>
+            <div id="aulas-texto">
+                <p> Aulas para todos os níveis! </p>
 
-            <p> <br> • Período Noturno: Segunda, Quarta e Sexta-Feira <br>
-                Horário: 19:00-22:00 </p>
+                <p> <br> • Período Noturno: Segunda, Quarta e Sexta-Feira <br>
+                    Horário: 19:00-22:00 </p>
 
-            <p> <br> • Período Matinal: Sábado <br>
-                Horário: 8:00-11:00 </p>
+                <p> <br> • Período Matinal: Sábado <br>
+                    Horário: 8:00-11:00 </p>
 
-            <p> <br> Garanta sua vaga hoje mesmo e transforme suas ideias em arte! Vamos criar juntos! </p>
+                <p class="frase-chamada"> <br> Garanta sua vaga hoje mesmo e transforme suas ideias em arte! Vamos criar juntos! </p>
+            </div>
 
         </div>
 
@@ -140,16 +136,17 @@
             <h3>Cursos</h3>
             <img src="img/side-view-hands-doing-pottery 1.png" alt="">
 
-            <p class="frase-chamada"> Explore o mundo da cerâmica e expanda seus horizontes artísticos! </p>
+            <div id="cursos-texto">
+                <p class="frase-chamada"> Explore o mundo da cerâmica e expanda seus horizontes artísticos! </p>
 
-            <p> <br> Cursos disponíveis: Pintura, Escultura e Torno </p>
+                <p> <br> Cursos disponíveis: Pintura, Escultura e Torno </p>
 
-            <p> <br> • Abertos para todos os níveis <br>
-                • Aprimoram suas habilidades na cerâmica <br>
-                • Foco em despertar sua criatividade </p>
+                <p> <br> • Abertos para todos os níveis <br>
+                    • Aprimoram suas habilidades na cerâmica <br>
+                    • Foco em despertar sua criatividade </p>
 
-            <p> <br> Curioso para saber mais? Clique e descubra o curso perfeito para você! </p>
-
+                <p class="frase-chamada"> <br> Curioso para saber mais? Clique e descubra o curso perfeito para você! </p>
+            </div>
         </div>
 
     </section>
@@ -163,10 +160,28 @@
     <!-- CONTATO - PEDRO -->
 
     <section id="contato">
-        <h1>CONTATO</h1>
+        <div id="container">
+            <h1>Entre em Contato</h1>
+            <div id="borda-form">
+                <form action="">
+                    <label for="fnome">Nome:</label><br>
+                    <input type="text" placeholder="Digite seu Nome" id="fnome" name="fnome" required><br>
+
+                    <label for="fsobr">Sobrenome:</label><br>
+                    <input type="text" placeholder="Digite seu Sobrenome" id="fsobre" name="fsobre" required><br>
+
+                    <label for="femail">Email:</label><br>
+                    <input type="text" placeholder="Digite seu Email" id="femail" name="femail" required><br>
+
+                    <label for="fmsg">Mensagem:</label><br>
+                    <textarea id="mensagem" name="mensagem" rows="6" placeholder="Digite sua mensagem" required></textarea>
+
+                    <button type="submit">Enviar</button>
+                </form>
+            </div>
+        </div>
     </section>
 
-    <!-- FOOTER - CAROL -->
     <footer>
         <div class="footer-content">
             <div class="footer-logo">
@@ -193,3 +208,9 @@
             </div>
         </div>
     </footer>
+
+    <script src="js/main.js"></script>
+
+</body>
+
+</html>
