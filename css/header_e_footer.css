@@ -20,11 +20,8 @@ header {
 }
 
 .logo img {
-    height: 50px;
     width: 50px;
     margin-right: 10px;
-   /* background-image: url("./OneDrive/Carol - Pessoal/imagens/Capturas de Tela/Captura de tela 2024-10-02 215812"); */
-
 }
 
 .logo h1 { /* Ateliê Terracota */
@@ -85,7 +82,6 @@ footer {
 }
 
 .footer-logo .logo-img {
-    height: 50px;
     width: 50px;
 }
 
