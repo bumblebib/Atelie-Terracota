@@ -54,10 +54,10 @@ nav a:hover, nav a.active {
 /* footer */
 
 footer {
-    background-color: #6b3d3d; 
+    background-color: #673A3F; 
     padding: 20px;
     height: 249px; 
-    color: #673A3F;
+    color: #B99470;
     font-family: Arial, sans-serif;
     text-align: center; 
     display: flex;
