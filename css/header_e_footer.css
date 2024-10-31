@@ -2,20 +2,16 @@
 
 /* header */
 
-body {
-    margin: 0;
-    padding: 0;
-    font-family: 'Lato', sans-serif;
-    background-color: #FEFAE0;
-}
-
 header {
     background-color: #FEFAE0;
     display: flex;
     align-items: center;
     justify-content: space-between;
     padding: 20px 40px;
-    height: 126px;
+    height: 80px;
+    width: 100%;
+    position: fixed;
+    z-index: 1;
 }
 
 .logo {
