@@ -33,25 +33,22 @@ header {
 
 nav {
     display: flex;
-    list-style: none;
-    margin: 0;
-    padding: 0;
-}
-
-nav li {
+    gap: 20px;
+    justify-content: center;
+    align-items: center;
     margin-left: 20px;
 }
 
-nav li a { /* botões */
+nav a { /* botões */
     text-decoration: none;
     font-size: 16px;
     color: #803D2A;
-    font-weight: 600;
+    font-weight: 300;
 }
 
-nav ul li a:hover, nav li a.active { 
+nav a:hover, nav a.active { 
     text-decoration: underline;
-    font-weight: 800;
+    font-weight: 600;
 }
 
 /* footer */
