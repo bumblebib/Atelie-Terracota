@@ -57,7 +57,7 @@ footer {
     background-color: #6b3d3d; 
     padding: 20px;
     height: 249px; 
-    color: #B99470;
+    color: #673A3F;
     font-family: Arial, sans-serif;
     text-align: center; 
     display: flex;
@@ -125,13 +125,13 @@ transition: color 0.3s ease;
     gap: 15px;
 }
 
-.social-icons a img {
-    height: 20px;
-    width: 20px;
-    filter: invert(60%);
-    transition: filter 0.3s ease;
+.social-icons a i{
+    text-decoration: none;
+    font-size: 16px;
+    color: #B99470;   
+    transition: color 0.3s ease;
 }
 
-.social-icons a img:hover {
-    filter: invert(80%);
+.social-icons a i:hover {
+    color: #f3e5d1; 
 }
