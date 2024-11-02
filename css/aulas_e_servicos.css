@@ -48,7 +48,7 @@
 
 #aulas p {
     font-size: 22px;
-    line-height: 22px;
+    line-height: 20px;
 }
 
 #aulas .img {
@@ -86,7 +86,16 @@
     font-weight: bold;
 }
 
-#aulas .button a .button-text p {
+#aulas .button:hover {
+    border-color: var(--background-marrom-claro);
+}
+
+#aulas .button a:hover {
+    background-color: var(--cor-texto-footer);
+    color: #9E4D37;
+}
+
+#aulas .button a p {
     font-size: 24px;
     border-bottom: var(--cor-texto-footer) 1px solid;
     padding-bottom: 1%;
