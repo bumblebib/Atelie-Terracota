@@ -12,7 +12,7 @@
     display: flex;
     width: 90%;
     height: 100vh;
-    margin: 5% auto auto auto;
+    margin: 2% auto auto auto;
     flex-direction: row;
     justify-content: space-evenly;
     box-sizing: border-box;
@@ -48,7 +48,7 @@
 
 #aulas p {
     font-size: 22px;
-    line-height: 20px;
+    line-height: 24px;
 }
 
 #aulas .img {
@@ -73,13 +73,17 @@
     padding: 1%;
     border: #9E4D37 3px solid;
     width: 40%;
+    height: 90px;
     text-align: center;
 }
 
 #aulas .button a {
     background-color: #9E4D37;
+    height: 100%;
+    border-radius: 5px;
     color: var(--cor-texto-footer);
     display: block;
+    align-content: center;
     padding: 5%;
     text-decoration: none;
     font-family: var(--fonte2);
@@ -96,7 +100,7 @@
 }
 
 #aulas .button a p {
-    font-size: 24px;
+    font-size: 26px;
     border-bottom: var(--cor-texto-footer) 1px solid;
     padding-bottom: 1%;
     display: inline-block;
