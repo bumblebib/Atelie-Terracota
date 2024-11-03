@@ -27,7 +27,7 @@
     align-items: center;
 }
 
-.frase-chamada {
+#aulas .frase-chamada {
     font-weight: bolder;
 }
 
@@ -104,4 +104,76 @@
 
 #servicos {
     background-color: var(--background-marrom-claro);
+    display: flex;
+    flex-direction: column;
+}
+
+#servicos .box-servicos {
+    display: flex;
+    flex-direction: column;
+    width: 90%;
+    height: 90%;
+    margin: 5%;
+    border: #5E5D5C 1px solid;
+    box-sizing: border-box;
+}
+
+#servicos .services {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: 50%;
+    box-sizing: border-box;
+    border: #5E5D5C 1px solid;
+}
+
+#servicos .img {
+    width: 30%;
+    height: 370px;
+    border: 6px solid var(--background-header);
+    border-radius: 20px;
+    background-position: center;
+    background-size: cover;
+}
+
+#servicos .img-services {
+    background-image: url(../img/img-esmaltacao\ 1.png);
+}
+
+#servicos .img-services2 {
+    background-image: url(../img/Pottery-firing-kiln_1920x1440\ 1.png);
+}
+
+#servicos .text-services {
+    width: 70%;
+    padding: 6px;
+    margin-left: 5%;
+    margin-right: 5%;
+    font-style: var(--texto-marrom-escuro);
+    font-size: 24px;
+    line-height: 24px;
+    text-align: center;
+}
+
+#servicos .text-services .frase-chamada {
+    font-weight: bolder;
+    padding-top: 16px;
+}
+
+#servicos .button {
+    margin: 2%;
+    padding: 1%;
+    border: var(--cor-texto-footer) 3px solid;
+    width: 30%;
+    text-align: center;
+}
+
+#servicos .button a {
+    background-color: var(--cor-texto-footer);
+    color: var(--texto-marrom-escuro);
+    display: block;
+    padding: 5%;
+    text-decoration: none;
+    font-family: var(--fonte2);
+    font-weight: bold;
 }
