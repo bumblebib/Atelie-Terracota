@@ -10,7 +10,7 @@
 
 #aulas .box-aulas {
     display: flex;
-    width: 90%;
+    width: 95%;
     height: 100vh;
     margin: 2% auto auto auto;
     flex-direction: row;
@@ -18,7 +18,7 @@
     box-sizing: border-box;
 }
 
-.aulas-cursos {
+#aulas .aulas-cursos {
     text-align: center;
     width: 45%;
     display: flex;
@@ -31,12 +31,18 @@
     font-weight: bolder;
 }
 
-.aulcur-texto {
+#aulas .linha-superior {
     width: 90%;
-    margin-top: 15px;
-    border-top: 3px solid #5E5D5C;
-    padding-top: 9px;
-    padding-bottom: 9px;
+    height: 3px;
+    background-color: #5E5D5C;
+    margin-top: 18px;
+}
+
+#aulas .aulcur-texto {
+    width: 95%;
+    margin-top: 9px;
+    margin-bottom: 9px;
+    box-sizing: border-box;
 }
 
 #aulas h3 {
@@ -47,8 +53,8 @@
 }
 
 #aulas p {
-    font-size: 22px;
-    line-height: 24px;
+    font-size: 24px;
+    line-height: 22px;
 }
 
 #aulas .img {
