@@ -114,7 +114,6 @@
     width: 90%;
     height: 90%;
     margin: 5%;
-    border: #5E5D5C 1px solid;
     box-sizing: border-box;
 }
 
@@ -124,7 +123,6 @@
     width: 100%;
     height: 50%;
     box-sizing: border-box;
-    border: #5E5D5C 1px solid;
 }
 
 #servicos .img {
@@ -137,6 +135,7 @@
 }
 
 #servicos .img-services {
+    margin-right: 5%;
     background-image: url(../img/img-esmaltacao\ 1.png);
 }
 
@@ -144,11 +143,20 @@
     background-image: url(../img/Pottery-firing-kiln_1920x1440\ 1.png);
 }
 
-#servicos .text-services {
+#servicos .services-textbutton {
     width: 70%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
     padding: 6px;
-    margin-left: 5%;
     margin-right: 5%;
+    margin-bottom: 2%;
+    border-top: var(--texto-marrom-escuro) 3px solid;
+    border-bottom: var(--texto-marrom-escuro) 3px solid;
+}
+
+#servicos .text-services {
+    font-family: var(--fonte1);
     font-style: var(--texto-marrom-escuro);
     font-size: 24px;
     line-height: 24px;
@@ -156,24 +164,36 @@
 }
 
 #servicos .text-services .frase-chamada {
-    font-weight: bolder;
+    font-weight: bold;
+    font-family: var(--fonte2);
     padding-top: 16px;
 }
 
 #servicos .button {
     margin: 2%;
-    padding: 1%;
+    padding: 0.5%;
     border: var(--cor-texto-footer) 3px solid;
-    width: 30%;
+    width: 25%;
     text-align: center;
 }
 
 #servicos .button a {
     background-color: var(--cor-texto-footer);
+    border-radius: 5px;
     color: var(--texto-marrom-escuro);
     display: block;
     padding: 5%;
     text-decoration: none;
     font-family: var(--fonte2);
-    font-weight: bold;
+    font-weight: 900;
+    font-size: 24px;
+}
+
+#servicos .button:hover {
+    border-color: var(--cor-texto-header);
+}
+
+#servicos .button a:hover {
+    background-color: #9E4D37;
+    color: var(--cor-texto-footer);
 }
