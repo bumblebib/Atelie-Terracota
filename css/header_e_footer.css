@@ -20,7 +20,7 @@ header {
 }
 
 .logo img {
-    width: 50px;
+    width: 10%;
     margin-right: 10px;
 }
 
@@ -79,7 +79,7 @@ footer {
 }
 
 .footer-logo .logo-img {
-    width: 50px;
+    width: 10%;
 }
 
 .footer-logo h2 {
