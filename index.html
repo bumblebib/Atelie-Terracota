@@ -22,9 +22,6 @@
     <link rel="manifest" href="favicon/site.webmanifest">
 
     <!-- fonte -->
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap" rel="stylesheet">
 
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -70,19 +67,28 @@
 
     <section id="quemsomos">
 
-        <div>
-            <img src="img/pessoas_estudio.png" alt="pessoas_estudio">
-        </div>
+        <div class="container">
+            <div class="quem-somos_img">
+                <img src="img/pessoas_estudio.png" alt="pessoas_estudio">
+            </div>
 
-        <div id="descricao">
-            <h1>QUEM SOMOS</h1>
-            <p>
-                O Ateliê Terracota é um espaço dedicado à arte da cerâmica, onde transformamos criatividade em peças únicas. Oferecemos uma variedade de serviços, desde aulas e cursos para quem deseja aprender ou aprimorar suas habilidades, até a esmaltação e queima de peças para clientes que já têm suas próprias criações. Nosso objetivo é inspirar e apoiar o desenvolvimento artístico, criando um ambiente onde o aprendizado e a técnica se encontram.
-            </p>
+            <div id="descricao">
+                <h1 class="titulo_quem_somos titulo">Quem Somos</h1>
 
-            <p>
-                Quer saber mais sobre nossos serviços, agendar uma aula ou adquirir uma de nossas peças exclusivas? Entre em contato com o Ateliê Terracota e descubra como podemos transformar suas ideias em realidade!
-            </p>
+                <div class="descricao-interna descricao-color-quem-somos">
+                    <p>
+                        O <span> Ateliê Terracota </span> é um espaço dedicado à arte da cerâmica, onde transformamos criatividade em peças únicas. Oferecemos uma variedade de serviços, desde aulas e cursos para quem deseja aprender ou aprimorar suas habilidades, até a esmaltação e queima de peças para clientes que já têm suas próprias criações. Nosso objetivo é inspirar e apoiar o desenvolvimento artístico, criando um ambiente onde o aprendizado e a técnica se encontram.
+                    </p>
+
+                    <p>
+                        Quer saber mais sobre nossos serviços, agendar uma aula ou adquirir uma de nossas peças exclusivas? Entre em contato com o Ateliê Terracota e descubra como podemos transformar suas ideias em realidade!
+                    </p>
+                </div>
+
+                <a class="botao botao-color_quemsomos" href="#contato">Entre em Contato</a>
+
+            </div>
+
         </div>
 
     </section>
@@ -91,19 +97,27 @@
 
     <section id="ceramica">
 
-        <div id="descricao">
-            <h1>CERAMICA</h1>
-            <p>
-                A arte da cerâmica começa com a preparação cuidadosa da argila, que é amassada para remover bolhas de ar e garantir a uniformidade. A moldagem pode ser feita manualmente ou com o auxílio de moldes, dando forma às ideias e criações. Após a peça secar completamente, ela passa pela primeira queima, chamada de biscoito, que a endurece e prepara para a próxima etapa. Em seguida, a peça é esmaltada para ganhar cor e impermeabilização, passando por uma segunda queima em altas temperaturas, completando o processo e dando vida à cerâmica.
-            </p>
+        <div class="container">
 
-            <p>
-                Transforme seu espaço com a beleza única da cerâmica artesanal! Explore nossas peças exclusivas e artes em cerâmica, feitas com dedicação e cuidado em cada detalhe. Entre em contato agora para adquirir uma obra que traga personalidade e arte para sua vida.
-            </p>
-        </div>
+            <div id="descricao">
+                <h1 class="titulo titulo_ceramica">A arte da Cerâmica</h1>
 
-        <div>
-            <img src="img/Senhor moldando cerâmica.png" alt="senhor_moldando">
+                <div class="descricao-interna descricao-color-ceramica">
+                    <p>
+                        A <span>arte da cerâmica</span> começa com a preparação cuidadosa da argila, que é amassada para remover bolhas de ar e garantir a uniformidade. A moldagem pode ser feita manualmente ou com o auxílio de moldes, dando forma às ideias e criações. Após a peça secar completamente, ela passa pela primeira queima, chamada de biscoito, que a endurece e prepara para a próxima etapa. Em seguida, a peça é esmaltada para ganhar cor e impermeabilização, passando por uma segunda queima em altas temperaturas, completando o processo e dando vida à cerâmica.
+                    </p>
+
+                    <p>
+                        Transforme seu espaço com a beleza única da cerâmica artesanal! Explore nossas peças exclusivas e artes em cerâmica, feitas com dedicação e cuidado em cada detalhe. Entre em contato agora para adquirir uma obra que traga personalidade e arte para sua vida.
+                    </p>
+                </div>
+
+                <a href="#contato" class="botao botao-color_ceramica">Entre em Contato</a>
+            </div>
+
+            <div class="ceramica_img">
+                <img src="img/Senhor moldando cerâmica.png" alt="pessoas_estudio">
+            </div>
         </div>
 
     </section>
@@ -112,47 +126,115 @@
 
     <section id="aulas">
 
-        <div class="aulas-cursos" id="aul">
-            <h3>Aulas</h3>
-            <img src="img/high-angle-people-doing-pottery.jpg" alt="">
+        <div class="box-aulas">
 
-            <div id="aulas-texto">
-                <p> Aulas para todos os níveis! </p>
+            <div class="aulas-cursos" id="aul">
+                <h3>Aulas</h3>
 
-                <p> <br> • Período Noturno: Segunda, Quarta e Sexta-Feira <br>
-                    Horário: 19:00-22:00 </p>
+                <div class="img img-aulas"> </div>
+                <div class="linha-superior"> </div>
 
-                <p> <br> • Período Matinal: Sábado <br>
-                    Horário: 8:00-11:00 </p>
+                <div class="aulcur-texto">
+                    <p> Aulas para todos os níveis! </p>
 
-                <p class="frase-chamada"> <br> Garanta sua vaga hoje mesmo e transforme suas ideias em arte! Vamos criar juntos! </p>
+                    <p> <br> • Período Noturno: Segunda, Quarta e Sexta-Feira <br>
+                        Horário: 19:00-22:00 </p>
+
+                    <p> <br> • Período Matinal: Sábado <br>
+                        Horário: 8:00-11:00 </p>
+
+                    <p class="frase-chamada"> <br> Garanta sua vaga hoje mesmo e transforme suas ideias em arte! Vamos criar juntos! </p>
+                </div>
+
+                <div class="button"> <a href="#contato">
+                        <p> Entre em Contato </p>
+                    </a> </div>
+
             </div>
 
-        </div>
+            <div class="aulas-cursos" id="cur">
+                <h3>Cursos</h3>
 
-        <div class="aulas-cursos" id="cur">
-            <h3>Cursos</h3>
-            <img src="img/side-view-hands-doing-pottery 1.png" alt="">
+                <div class="img img-cursos"> </div>
+                <div class="linha-superior"> </div>
 
-            <div id="cursos-texto">
-                <p class="frase-chamada"> Explore o mundo da cerâmica e expanda seus horizontes artísticos! </p>
+                <div class="aulcur-texto">
+                    <p class="frase-chamada"> Explore o mundo da cerâmica e expanda seus horizontes artísticos! </p>
 
-                <p> <br> Cursos disponíveis: Pintura, Escultura e Torno </p>
+                    <p> <br> Cursos disponíveis: Pintura, Escultura e Torno </p>
 
-                <p> <br> • Abertos para todos os níveis <br>
-                    • Aprimoram suas habilidades na cerâmica <br>
-                    • Foco em despertar sua criatividade </p>
+                    <p> <br> • Abertos para todos os níveis <br>
+                        • Aprimoram suas habilidades na cerâmica <br>
+                        • Foco em despertar sua criatividade </p>
 
-                <p class="frase-chamada"> <br> Curioso para saber mais? Clique e descubra o curso perfeito para você! </p>
+                    <p class="frase-chamada"> <br> Curioso para saber mais? Clique e descubra o curso perfeito para você! </p>
+                </div>
+
+                <div class="button"> <a href="#contato">
+                        <p> Entre em Contato </p>
+                    </a> </div>
+
             </div>
         </div>
-
     </section>
 
     <!-- SERVIÇOS - THALES -->
 
     <section id="servicos">
-        <h1>SERVIÇOS</h1>
+
+        <div class="box-servicos">
+
+            <div class="services">
+
+                <div class="img img-services"> </div>
+
+                <div class="services-textbutton">
+
+                    <div class="text-services">
+
+                        <p class="frase-chamada"> Dê o toque final à sua peça com nossa esmaltação profissional! </p>
+
+                        <p> A esmaltação é a etapa essencial para transformar suas criações em cerâmica, dando acabamento,
+                            cor e brilho únicos. Oferecemos um serviço especializado de esmaltação, com uma vasta gama de
+                            cores e técnicas para atender às suas preferências. Seja para proteger sua peça ou para aprimorar
+                            sua estética, nosso processo garante resultados impecáveis e duradouros. <br> </p>
+
+                        <p class="frase-chamada"> <br> Pronto para dar vida nova às suas criações? Agende agora o serviço de esmaltação
+                            perfeito para sua peça! </p>
+                    </div>
+
+                    <div class="button"> <a href="#contato"> Entre em Contato </a> </div>
+                </div>
+            </div>
+
+            <div class="services">
+
+                <div class="services-textbutton">
+
+                    <div class="text-services">
+
+                        <p class="frase-chamada"> Finalize suas criações com nossa queima de alta qualidade! <br> </p>
+                        <p> A queima é o processo fundamental que dá a resistência e durabilidade às suas
+
+
+                        <p> <br> A queima é o processo fundamental que dá a resistência e durabilidade às suas
+                            >>>>>>> Stashed changes
+                            peças em cerâmica. Com fornos especializados e técnicas cuidadosas, garantimos que
+                            suas criações sejam finalizadas com excelência. Seja para uma primeira queima
+                            (biscoito) ou a queima final após a esmaltação, nossa equipe cuida de cada detalhe para
+                            que o resultado final seja perfeito. <br> </p>
+
+                        <p class="frase-chamada"> <br> Pronto para levar suas peças ao próximo nível?
+                            Entre em contato e agende sua queima de cerâmica conosco! </p>
+                    </div>
+
+                    <div class="button"> <a href="#contato"> Entre em Contato </a> </div>
+                </div>
+
+                <div class="img img-services2"> </div>
+            </div>
+
+        </div>
     </section>
 
     <!-- CONTATO - PEDRO -->
