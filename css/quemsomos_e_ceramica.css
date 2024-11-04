@@ -1,18 +1,153 @@
 /*Maurício*/
 
+body,
+h1,
+h2,
+h3,
+p,
+ul {
+	padding: 0px;
+	margin: 0px;
+}
+
+* {
+	box-sizing: border-box;
+}
+
+:root {
+	--texto-marrom-escuro: #3b2023;
+	--texto-claro-palha: #fefae0;
+}
+
 img {
 	display: block;
 	max-width: 100%;
 }
 
-#quemsomos {
+.container {
 	display: flex;
-	background-color: #6c333e;
+	max-width: 960px;
 	margin: 0 auto;
 }
 
-#ceramica {
+#descricao {
 	display: flex;
-	background-color: #bb966d;
+	flex-direction: column;
+}
+
+#descricao > div {
+	max-width: 713px;
+}
+
+.descricao-interna {
+	font-family: "Nunito Sans", Helvetica;
+	font-size: 1.2em;
+
+	border-radius: 7px;
+	margin-bottom: 20px;
+}
+
+.descricao-interna p + p {
+	font-weight: bold;
+}
+
+.descricao-interna p {
+	margin: 13px 0 13px 0;
+	text-align: justify;
+}
+
+p > span {
+	font-weight: bold;
+}
+
+.titulo {
+	font-size: 1.9em;
+	font-family: "Lato", Helvita, Arial, sans-serif;
+	margin: 0 auto 15px auto;
+}
+
+.botao {
+	font-family: "Nunito Sans";
 	margin: 0 auto;
+	font-size: 1.6em;
+	text-decoration: none;
+	font-weight: bold;
+	padding: 8px;
+	display: block;
+	border-radius: 8px;
+}
+/* QUEM SOMOS*/
+
+.titulo_quem_somos {
+	color: var(--texto-claro-palha);
+}
+
+.quem-somos_img {
+	flex: 2 1 500px;
+	margin: 0 81px 0 0;
+	border-radius: 8px;
+	border: 8px solid #673a3f;
+	box-shadow: 0 0 0 7px var(--texto-claro-palha);
+}
+
+#quemsomos {
+	background-color: #6c333e;
+	padding: 216px 0 216px 0;
+}
+
+.botao-color_quemsomos {
+	color: black;
+	background-color: var(--texto-claro-palha);
+	border: 5px solid #673a3f;
+	box-shadow: 0 0 0 5px var(--texto-claro-palha);
+}
+
+.botao-color_quemsomos:hover {
+	background-color: #9e4d37;
+	box-shadow: 0 0 0 5px #9e4d37;
+	color: var(--texto-claro-palha);
+}
+
+.descricao-color-quem-somos {
+	border-top: 7px solid var(--texto-claro-palha);
+	border-bottom: 7px solid var(--texto-claro-palha);
+	color: var(--texto-claro-palha);
+}
+
+/* CERAMICA*/
+
+#ceramica {
+	background-color: #bb966d;
+	padding: 216px 0 216px 0;
+}
+
+.titulo_ceramica {
+	color: var(--texto-marrom-escuro);
+}
+
+.descricao-color-ceramica {
+	border-top: 7px solid var(--texto-marrom-escuro);
+	border-bottom: 7px solid var(--texto-marrom-escuro);
+	color: var(--texto-marrom-escuro);
+}
+
+.ceramica_img {
+	flex: 2 1 500px;
+	margin: 0 0px 0 81px;
+	border-radius: 8px;
+	border: 8px solid #bb966d;
+	box-shadow: 0 0 0 7px #3b2023;
+}
+
+.botao-color_ceramica {
+	color: var(--texto-claro-palha);
+	background-color: var(--texto-marrom-escuro);
+	border: 5px solid #bb966d;
+	box-shadow: 0 0 0 5px var(--texto-marrom-escuro);
+}
+
+.botao-color_ceramica:hover {
+	background-color: var(--texto-claro-palha);
+	box-shadow: 0 0 0 5px var(--texto-claro-palha);
+	color: black;
 }
