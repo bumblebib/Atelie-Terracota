@@ -116,13 +116,14 @@
     background-color: var(--background-marrom-claro);
     display: flex;
     flex-direction: column;
+    height: 120vh;
 }
 
 #servicos .box-servicos {
     display: flex;
     flex-direction: column;
     width: 90%;
-    height: 90%;
+    height: 100vh;
     margin: 5%;
     box-sizing: border-box;
 }
@@ -131,13 +132,12 @@
     display: flex;
     flex-direction: row;
     width: 100%;
-    height: 50%;
     box-sizing: border-box;
 }
 
 #servicos .img {
     width: 30%;
-    height: 370px;
+    height: 420px;
     border: 6px solid var(--background-header);
     border-radius: 20px;
     background-position: center;
@@ -166,13 +166,14 @@
 }
 
 #servicos .text-services {
+    width: 90%;
     font-family: var(--fonte1);
     font-style: var(--texto-marrom-escuro);
     font-weight: 600;
     font-size: 24px;
     line-height: 32px;
     text-align: center;
-    margin-bottom: 8px;
+    margin-bottom: 1%;
 }
 
 #servicos .text-services .frase-chamada {
@@ -181,7 +182,8 @@
 }
 
 #servicos .button {
-    margin: auto auto 2% auto;
+    margin-top: 1%;
+    margin-bottom: 2%;
     padding: 0.5%;
     border: var(--cor-texto-footer) 3px solid;
     width: 25%;
