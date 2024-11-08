@@ -1,5 +1,5 @@
 /* Feito por: Pedro Pereira*/
-@import url('styles.css'); 
+@import url('style.css'); 
 
 /*
 Hero Section
@@ -8,7 +8,7 @@ Hero Section
 section#hero{
     position: relative;
     height: 100vh;
-    background-image: url('/img/fundoHero.png');
+    background-image: url('../img/fundoHero.png');
     background-attachment: fixed;
     background-size: cover;
     background-repeat: no-repeat;
@@ -36,7 +36,7 @@ section#hero div#container div#destaque{
     max-width: 650px;
     min-width: 375px;
     position: relative;
-    top: 20%;
+    top: 35%;
     left: 70px;
     padding: 22px;
     background-color: rgba(255, 255, 255, 0.175);
@@ -90,7 +90,7 @@ Seção entre em contato
 
 section#contato{
     height: 100vh;
-    background-image: url('/img/fundoHero.png');
+    background-image: url('../img/fundoHero.png');
     background-attachment: fixed;
     background-size: cover;
     background-repeat: no-repeat;
@@ -124,7 +124,6 @@ Formulário
 *******************/
 form{
     width: 100%;
-    height: 400px;
     background-color: var(--cor-texto-footer);
     border-radius: 16px;
     padding: 15px;

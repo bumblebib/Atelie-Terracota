@@ -1,5 +1,5 @@
 let sections = document.querySelectorAll('section');
-let navlinks = document.querySelectorAll('nav li a');
+let navlinks = document.querySelectorAll('nav a');
 
 window.onscroll = () => {
     sections.forEach(sec => {

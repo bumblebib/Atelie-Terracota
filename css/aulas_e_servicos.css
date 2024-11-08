@@ -20,10 +20,10 @@
 
 #aulas .aulas-cursos {
     text-align: center;
-    width: 45%;
+    width: 50%;
+    height: 100vh;
     display: flex;
     flex-direction: column;
-    justify-content: center;
     align-items: center;
 }
 
@@ -35,7 +35,7 @@
     width: 90%;
     height: 3px;
     background-color: #5E5D5C;
-    margin-top: 18px;
+    margin-top: 5%;
 }
 
 #aulas .aulcur-texto {
@@ -43,6 +43,7 @@
     margin-top: 9px;
     margin-bottom: 9px;
     box-sizing: border-box;
+    padding: 2%;
 }
 
 #aulas h3 {
@@ -53,8 +54,7 @@
 }
 
 #aulas p {
-    font-size: 24px;
-    line-height: 22px;
+    font-size: clamp(1em, 1.1vw, 1.5em);
 }
 
 #aulas .img {
@@ -81,6 +81,7 @@
     width: 40%;
     height: 90px;
     text-align: center;
+    font-size: clamp(1em, 1.1vw, 1.5em);
 }
 
 #aulas .button a {
@@ -112,6 +113,7 @@
     display: inline-block;
 }
 
+/* Serviços */
 #servicos {
     background-color: var(--background-marrom-claro);
     display: flex;
@@ -124,8 +126,9 @@
     flex-direction: column;
     width: 90%;
     height: 100vh;
-    margin: 5%;
-    box-sizing: border-box;
+    margin: auto;
+    align-items: center;
+    justify-content: space-around;
 }
 
 #servicos .services {
@@ -142,6 +145,8 @@
     border-radius: 20px;
     background-position: center;
     background-size: cover;
+    width: 30%;
+    height: 40vh;
 }
 
 #servicos .img-services {
@@ -166,14 +171,11 @@
 }
 
 #servicos .text-services {
-    width: 90%;
     font-family: var(--fonte1);
     font-style: var(--texto-marrom-escuro);
     font-weight: 600;
-    font-size: 24px;
-    line-height: 32px;
     text-align: center;
-    margin-bottom: 1%;
+    font-size: clamp(1em, 1.1vw, 1.5em);
 }
 
 #servicos .text-services .frase-chamada {
@@ -182,12 +184,11 @@
 }
 
 #servicos .button {
-    margin-top: 1%;
-    margin-bottom: 2%;
+    margin: 5%;
     padding: 0.5%;
     border: var(--cor-texto-footer) 3px solid;
-    width: 25%;
     text-align: center;
+    width: 40%;
 }
 
 #servicos .button a {
@@ -199,7 +200,7 @@
     text-decoration: none;
     font-family: var(--fonte2);
     font-weight: 900;
-    font-size: 24px;
+    font-size: clamp(1em, 1.1vw, 1.5em);
 }
 
 #servicos .button:hover {

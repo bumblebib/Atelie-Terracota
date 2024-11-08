@@ -19,20 +19,18 @@ ul {
 	--texto-claro-palha: #fefae0;
 }
 
-img {
-	display: block;
-	max-width: 100%;
-}
-
 .container {
 	display: flex;
+	width: 90%;
 	max-width: 960px;
 	margin: 0 auto;
+	align-items: center;
 }
 
 #descricao {
 	display: flex;
 	flex-direction: column;
+	width: 60%;
 }
 
 #descricao > div {
@@ -41,7 +39,7 @@ img {
 
 .descricao-interna {
 	font-family: "Nunito Sans", Helvetica;
-	font-size: 1.2em;
+	font-size: clamp(1em, 1vw, 1.5em);
 
 	border-radius: 7px;
 	margin-bottom: 20px;
@@ -83,16 +81,21 @@ p > span {
 }
 
 .quem-somos_img {
-	flex: 2 1 500px;
 	margin: 0 81px 0 0;
 	border-radius: 8px;
 	border: 8px solid #673a3f;
 	box-shadow: 0 0 0 7px var(--texto-claro-palha);
+	background-image: url("../img/pessoas_estudio.png");
+    height: 70vh;
+	width: 40%;
+	max-height: 500px;
+    background-position: center;
 }
 
 #quemsomos {
 	background-color: #6c333e;
-	padding: 216px 0 216px 0;
+	padding: 10% 0;
+	height: 110vh;
 }
 
 .botao-color_quemsomos {
@@ -118,7 +121,8 @@ p > span {
 
 #ceramica {
 	background-color: #bb966d;
-	padding: 216px 0 216px 0;
+	padding: 10% 0;
+	height: 110vh;
 }
 
 .titulo_ceramica {
@@ -132,11 +136,15 @@ p > span {
 }
 
 .ceramica_img {
-	flex: 2 1 500px;
 	margin: 0 0px 0 81px;
 	border-radius: 8px;
 	border: 8px solid #bb966d;
 	box-shadow: 0 0 0 7px #3b2023;
+	background-image: url("../img/Senhor\ moldando\ cerâmica.png");
+    height: 70vh;
+	width: 40%;
+	max-height: 500px;
+    background-origin: border-box;
 }
 
 .botao-color_ceramica {
