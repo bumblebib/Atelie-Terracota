@@ -39,7 +39,7 @@ ul {
 
 .descricao-interna {
 	font-family: "Nunito Sans", Helvetica;
-	font-size: clamp(1em, 1vw, 1.5em);
+	font-size: 1.1vw;
 
 	border-radius: 7px;
 	margin-bottom: 20px;
@@ -67,7 +67,9 @@ p > span {
 .botao {
 	font-family: "Nunito Sans";
 	margin: 0 auto;
-	font-size: 1.6em;
+	font-size: 1.1vw;
+	width: 40%;
+	text-align: center;
 	text-decoration: none;
 	font-weight: bold;
 	padding: 8px;

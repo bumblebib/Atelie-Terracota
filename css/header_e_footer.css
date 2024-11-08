@@ -55,8 +55,8 @@ nav a:hover, nav a.active {
 
 footer {
     background-color: #673A3F; 
-    padding: 20px;
-    height: 220px; 
+    padding: 2%;
+    height: 35vh; 
     color: #B99470;
     font-family: Arial, sans-serif;
     text-align: center; 
@@ -96,6 +96,7 @@ footer {
     padding: 0;
     margin: 0;
     gap: 20px;
+    flex-wrap: wrap;
 }
 
 .footer-menu ul li a {

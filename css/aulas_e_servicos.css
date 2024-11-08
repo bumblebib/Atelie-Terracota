@@ -54,7 +54,7 @@
 }
 
 #aulas p {
-    font-size: clamp(1em, 1.1vw, 1.5em);
+    font-size: 1.1vw;
 }
 
 #aulas .img {
@@ -81,7 +81,7 @@
     width: 40%;
     height: 90px;
     text-align: center;
-    font-size: clamp(1em, 1.1vw, 1.5em);
+    font-size: 1.1vw;
 }
 
 #aulas .button a {
@@ -107,7 +107,7 @@
 }
 
 #aulas .button a p {
-    font-size: 26px;
+    font-size: 1.1vw;
     border-bottom: var(--cor-texto-footer) 1px solid;
     padding-bottom: 1%;
     display: inline-block;
@@ -134,8 +134,8 @@
 #servicos .services {
     display: flex;
     flex-direction: row;
-    width: 100%;
     box-sizing: border-box;
+    align-items: center;
 }
 
 #servicos .img {
@@ -175,7 +175,7 @@
     font-style: var(--texto-marrom-escuro);
     font-weight: 600;
     text-align: center;
-    font-size: clamp(1em, 1.1vw, 1.5em);
+    font-size: 1.1vw;
 }
 
 #servicos .text-services .frase-chamada {
@@ -188,7 +188,7 @@
     padding: 0.5%;
     border: var(--cor-texto-footer) 3px solid;
     text-align: center;
-    width: 40%;
+    width: 35vh;
 }
 
 #servicos .button a {
@@ -200,7 +200,7 @@
     text-decoration: none;
     font-family: var(--fonte2);
     font-weight: 900;
-    font-size: clamp(1em, 1.1vw, 1.5em);
+    font-size: 1.1vw;
 }
 
 #servicos .button:hover {
